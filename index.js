@@ -1,60 +1,52 @@
 //name
-const yourname = prompt("enter your name please");
-console.log(yourname)
+// const yourname = prompt("enter your name please");
+// console.log(yourname)
 
 //last name
-const lastname = prompt("enter your last name please");
-console.log(lastname)
+// const lastname = prompt("enter your last name please");
+// console.log(lastname)
 
-//age
-const yourage = prompt("enter your age please");
-console.log(yourage)
+// //age
+// const yourage = prompt("enter your age please");
+// console.log(yourage)
 
-alert("отряд захвата отправлен")
+// alert("отряд захвата отправлен")
 
-// const value = prompt("Please enter a number!");
-// console.log(typeof value); // "string"
-// console.log(value); // "5"
+let age = 14;
+console.log(age);
 
-// let i = 10;
+let name = "kirill";
+console.log(name);
 
-// for (let i = 0; i<10; i++){
-//     console.log("i = "+i)
-// }
+let isStudent = true;
+console.log(isStudent);
 
-//new way of declaring variables
-// let a = confirm("Please confirm your order");
+let myString = "У якийсь момент ви повинні відпустити образи, тому що вони тільки болять. Taylor Swift";
+console.log(myString);
 
-// let b = 20;
-// let c = a + b;
-// console.log(a);
+let myNumber = 10;
+console.log(myNumber + 10);
 
+let myNull = null;
+console.log(myNull)
 
-//out dated way of declaring variables
-// var d = prompt("Please enter code");
-// var e = 40;
-// var f = d + e;
-// console.log(d);
-// alert(f);
+let enteredname = prompt("Please enter your name");
 
-//const is used to declare constant variables
+alert ("hello " + enteredname);
 
-// const h = 60;
-// const i = g + h;
-// console.log(i);
-// alert(i);
+let isConfirmed = confirm("Ви підтверджуєте дію?");
+if (isConfirmed) {
+    alert("Дякую за підтвердження!");
+} else {
+    alert("Дію відмінено!");
+}
 
-//without using let, var, const
-// j = 70;
-// k = 80;
-// l = j + k;
-// console.log(l);
-// alert(l);
+alert ("Ця дія небезпечна, підтвердіть далі");
 
-// if (a < b){
-//     alert("a is < b")
-// } else {
-//     alert ("a is > b")
-// }
+let dangerConfirm = confirm ("Ця дія небезпечна, ви впевненні,");
 
-
+if (dangerConfirm) {
+    alert("Дякую за підтвердження!");
+} else {
+    alert("Дію відмінено!");
+}
